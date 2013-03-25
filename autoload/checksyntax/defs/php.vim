@@ -14,7 +14,7 @@ if executable('php')
                     \ 'alternatives': [
                     \   {
                     \     'name': 'php',
-                    \     'cmd': 'php -l -d display_errors=0 -d error_log= -d error_reporting=E_PARSE',
+                    \     'cmd': 'php -l -d display_errors=1 -d error_log= -d error_reporting=E_PARSE',
                     \     'efm': '%*[^:]: %m in %f on line %l',
                     \   }
                     \ ]
